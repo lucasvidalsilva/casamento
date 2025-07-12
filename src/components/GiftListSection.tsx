@@ -18,7 +18,6 @@ const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
   { name: 'Air Fryer', searchQuery: 'air fryer elétrica 5L', image: 'https://m.media-amazon.com/images/I/51NKkmrtVEL._AC_SX679_.jpg' },
   { name: 'Varal Dobrável', searchQuery: 'varal dobrável inox', image: 'https://m.media-amazon.com/images/I/51ucwKgEA4L.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Sanduicheira', searchQuery: 'sanduicheira elétrica antiaderente', image: 'https://m.media-amazon.com/images/I/61wMBjlcDbL.__AC_SX300_SY300_QL70_ML2_.jpg' },
-  { name: 'Cama', searchQuery: 'cama casal box', image: 'https://m.media-amazon.com/images/I/51voJDa9M1L.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Geladeira', searchQuery: 'geladeira frost free', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRASQzmq4IfHr3H26BkzqS7mLQayb7LXzTHFvRsdR4XS3Q8nCKXmrkkegHNEF1jctJQtXzVrTn9x7ty2l-KX_xfuOsWxtRtj5Of6YP3zbF2MjUiywFAk8LL' },
   { name: 'Máquina de Lavar', searchQuery: 'máquina de lavar 12kg', image: 'https://m.media-amazon.com/images/I/41pS08Q7EoL.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Mesa com Cadeira', searchQuery: 'mesa com 4 cadeiras', image: 'https://http2.mlstatic.com/D_NQ_NP_2X_811656-MLA79748605813_102024-F.webp' },
@@ -99,9 +98,10 @@ const GiftListSection: React.FC = () => {
   return (
     <section className="py-16 bg-gradient-to-br from-cream to-stone-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-dancing text-center text-sage-dark mb-12">
+        <h2 className="text-4xl md:text-5xl font-dancing text-center text-sage-dark mb-2">
           Lista de Presentes
         </h2>
+        <p className="text-4xl md:text-2xl text-center text-sage-dark mb-12">Obs: as fotos são exemplos</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
           {displayedGifts.map(gift => (
