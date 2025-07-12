@@ -44,6 +44,7 @@ const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
   { name: 'Cortinas', searchQuery: 'cortina blackout sala', image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRlLnA1hMwFd8gWj3Cbs6CbBTX2mJ_Wx5CvCZSZf6uifm5uqWduj27a2TU5t0u7rKeiOHR1rVlI_iO-_WQmEyiGTDiPLzBFn4KnlW9xoNf59kgVdmYI9TcdLw&usqp=CAc' },
   { name: 'Aspirador de Pó', searchQuery: 'aspirador de pó portátil potente', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTP-dR5mVpU0ho3ZV8qKpoPbDu1LphOgKgn-S0gsE9N6xTEqY31O33XBLKokjGcpQ33cC4hsygfmfq-wMgGyxduWujO4Mg_0Aq9LAiqg2NLMuiqiZmNFtz_YKH_8WwLgyWxKBvWWKIZNg&usqp=CAc' },
   { name: 'Jogo de Taças', searchQuery: 'jogo de taças vinho cristal', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSfKrD1NsjdxJYB2fjUAbPsndCk1fBhDWImYnKqBBzY-bUU4eBvzojHL8Ke7k_F_qV9Kxpb1l8uM5tqGcuHTFNiG8lWp-7MfqfX7N3sLZrbFN-XgPk5xpRsolpOwSZ1rQ&usqp=CAc' },
+  { name: 'Jogo de Escumadeira', searchQuery: 'jogo de escumadeiraaa', image: 'https://www.bing.com/th?id=OPHS.5HiQelKDk6k5HA474C474&o=5&pid=21.1&w=148&h=216&qlt=100&dpr=1,3&o=2&bw=6&bc=FFFFFF' },
 ];
 
 const GiftListSection: React.FC = () => {
