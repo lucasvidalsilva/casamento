@@ -10,7 +10,8 @@ const StorySection: React.FC = () => {
               Nos conhecemos em 2021 na Igreja Assembleia de Deus, com 15 anos no curso do IBUC, um curso biblico para adolescentes, oração fez parte do nosso relacionamento. Nós dois sorrimos, Deus sorriu pra gente e o resto é história!
             </p>
             <p className="text-lg md:text-xl text-cream leading-relaxed">
-Agora, estamos prontos para dar o próximo passo e oficializar nossa união perante Deus, nossa família e nossos amigos mais queridos.            </p>
+              Agora, estamos prontos para dar o próximo passo e oficializar nossa união perante Deus, nossa família e nossos amigos mais queridos.
+            </p>
           </div>
           
           <div className="mb-12">
@@ -21,8 +22,13 @@ Agora, estamos prontos para dar o próximo passo e oficializar nossa união pera
           
           <div className="bg-cream/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-cream/20">
             <p className="text-xl md:text-2xl text-cream font-light leading-relaxed">
-              Como não tivemos chá de panela, estamos construindo nosso lar com muito amor (e algumas coisas ainda faltando, rs 😅). Então, se quiser nos abençoar com um presente, deixamos aqui abaixo uma lista de sugestão e nossa chave pix caso queria presentear com dinheiro: 69999007817.
+              Como não tivemos chá de panela, estamos construindo nosso lar com muito amor (e algumas coisas ainda faltando, rs 😅). Então, se quiser nos abençoar com um presente, deixamos aqui abaixo uma lista de sugestão e nossa chave pix caso queira presentear com dinheiro:
             </p>
+          </div>
+          
+          <div className="mt-6 text-cream text-center">
+            <p className="text-lg md:text-xl font-sans font-bold">Chave Pix: 69999007817</p>
+            <p className="text-lg md:text-xl">No nome de: Lucas Vidal</p>
           </div>
         </div>
       </div>
