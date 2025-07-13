@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
         </div>
         
         <div className="text-2xl md:text-3xl font-dancing text-sage-dark">
-          13 . 09 . 2025
+          13 . 09 . 2025 | 18h30
         </div>
       </div>
   
