@@ -13,11 +13,8 @@ interface Gift {
 const DEFAULT_IMAGE = 'https://via.placeholder.com/300x300?text=Imagem+do+Produto';
 
 const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
-  { name: 'Liquidificador', searchQuery: 'liquidificador', image: 'https://m.media-amazon.com/images/I/519XF3-7OoL._AC_SX679_.jpg' },
-  { name: 'Ferro de Passar', searchQuery: 'ferro de passar roupa', image: 'https://m.media-amazon.com/images/I/71706ggJMeL.__AC_SY300_SX300_QL70_ML2_.jpg' },
   { name: 'Air Fryer', searchQuery: 'air fryer elétrica 5L', image: 'https://m.media-amazon.com/images/I/51NKkmrtVEL._AC_SX679_.jpg' },
   { name: 'Varal Dobrável', searchQuery: 'varal dobrável inox', image: 'https://m.media-amazon.com/images/I/51ucwKgEA4L.__AC_SX300_SY300_QL70_ML2_.jpg' },
-  { name: 'Sanduicheira', searchQuery: 'sanduicheira elétrica antiaderente', image: 'https://m.media-amazon.com/images/I/61wMBjlcDbL.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Geladeira', searchQuery: 'geladeira frost free', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRASQzmq4IfHr3H26BkzqS7mLQayb7LXzTHFvRsdR4XS3Q8nCKXmrkkegHNEF1jctJQtXzVrTn9x7ty2l-KX_xfuOsWxtRtj5Of6YP3zbF2MjUiywFAk8LL' },
   { name: 'Máquina de Lavar', searchQuery: 'máquina de lavar 12kg', image: 'https://m.media-amazon.com/images/I/41pS08Q7EoL.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Mesa com Cadeira', searchQuery: 'mesa com 4 cadeiras', image: 'https://http2.mlstatic.com/D_NQ_NP_2X_811656-MLA79748605813_102024-F.webp' },
@@ -31,7 +28,6 @@ const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
   { name: 'Jogo de Talheres', searchQuery: 'jogo de talheres inox 24 peças', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQZMfJDe1BeSRG1nVGtlG3YtPz3OkPjCOhBziODg94tr9ei3jC1mdtaVqsZ7F1v26iFJxL7gcwEDqXGQCDhJAZk75ff8UURNMc7vBjZxdTFjPFIryJxV-DvrIyJpDbYXo-IxyGn6zw&usqp=CAc' },
   { name: 'Jogo de Copos', searchQuery: 'jogo de copos vidro 6 peças', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPELv2g-l9uBjiEahm5CppL2ytiKztNDl0wfcz2Sr0I2nH1yMFRrBoUXdM2EgQZaxppx_CHev21-Fewd0-WUkjnw6CpiccSZ_03B-U7NooLiuwRE7Wig9kheOG0FsML7RCLe4sXw&usqp=CAc' },
   { name: 'Jogo de Xícaras', searchQuery: 'jogo de xícaras porcelana', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOHjSHFgBy7MLmAuFXNv2wfGF_eC_2ooNWTvzAoVOfGSNlYntLb_mTH6-UeELnR6sJNJc0Qw63tp3JtI1TRh_xrKG3Uejmu2KXpJ7CQqcROaYyMqQumgjzotF1iw_5RO2CwV5pCNFxCA&usqp=CAc' },
-  { name: 'Tábua de Corte (com um 1kg de picanha)', searchQuery: 'tábua de corte bambu', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSTI_ws62LSQlozluv_7EsObTIJBgUHF0Yo7IrK9Hqo0Q82gwLQSTcKs4u23SyoqEV-5_RM-qVenHGiZg-W8c4RviCZ1_CQ_DA0S4L-CdXv&usqp=CAc' },
   { name: 'Jogo de Panela', searchQuery: 'conjunto panelas antiaderente', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR4mjTFfqaMVZ54gEMlbTwnxPLss1IxxL6DWfvRk8JbI-p3h_8Kxs-KhXA5tZpEJBzOdzFeiHYzcFkyXYCNwjNsOHtN8Xrrhtc1FThA09sabAXSkNXFnMKMhsD2vteFEw&usqp=CAc' },
   { name: 'Potes com Tampa', searchQuery: 'kit potes com tampa', image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9a2__qjf4nAEC645u5ECztZzWlcEBiv-77eAg0eO_w_v17WLQI3DYpgSfk5jjGSh1rk5OhkbqSoqG6juELi_ZZVvkETu-4cVtRI6bTOxka7MliuTvJnS2pcleJ-UdmtSCOZ-71GAbjzE&usqp=CAc' },
   { name: 'Porta Temperos', searchQuery: 'porta temperos giratório', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPOXX_CAdSIb8T0cOqr-BJoK7MIBDLVQX6zMy0Q9a-E99Z8qo4fRhEmw2oaPM0eOpKfKMirXx4hbjlviIFhDN3P5O54hQYO4BnJq1Gmyb1OwFariqXzmH0MpTVJ8jbJUANrYzwlyE&usqp=CAc' },
