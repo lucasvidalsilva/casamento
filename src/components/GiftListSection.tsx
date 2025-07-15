@@ -13,7 +13,6 @@ interface Gift {
 const DEFAULT_IMAGE = 'https://via.placeholder.com/300x300?text=Imagem+do+Produto';
 
 const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
-  { name: 'Air Fryer', searchQuery: 'air fryer elétrica 5L', image: 'https://m.media-amazon.com/images/I/51NKkmrtVEL._AC_SX679_.jpg' },
   { name: 'Varal Dobrável', searchQuery: 'varal dobrável inox', image: 'https://m.media-amazon.com/images/I/51ucwKgEA4L.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Geladeira', searchQuery: 'geladeira frost free', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRASQzmq4IfHr3H26BkzqS7mLQayb7LXzTHFvRsdR4XS3Q8nCKXmrkkegHNEF1jctJQtXzVrTn9x7ty2l-KX_xfuOsWxtRtj5Of6YP3zbF2MjUiywFAk8LL' },
   { name: 'Máquina de Lavar', searchQuery: 'máquina de lavar 12kg', image: 'https://m.media-amazon.com/images/I/41pS08Q7EoL.__AC_SX300_SY300_QL70_ML2_.jpg' },
@@ -42,6 +41,9 @@ const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
   { name: 'Jogo de Escumadeira', searchQuery: 'jogo de escumadeiraaa', image: 'https://www.bing.com/th?id=OPHS.5HiQelKDk6k5HA474C474&o=5&pid=21.1&w=148&h=216&qlt=100&dpr=1,3&o=2&bw=6&bc=FFFFFF' },
   { name: 'Pano de prato', searchQuery: 'pano de prato', image: 'https://th.bing.com/th?id=OPHS.ECaXbHoEV%2f1ziA474C474&w=300&h=300&o=5&dpr=1.3&pid=21.1' },
   { name: 'Caminho de mesa', searchQuery: 'caminho de mesa de croche', image: 'https://i.pinimg.com/736x/94/86/b5/9486b55e88f14257d262129c5ca04819.jpg' },
+  { name: 'Jarra', searchQuery: 'jarra', image: 'https://th.bing.com/th/id/OPHS.2ZAquKfxJQEDyQ474C474?w=300&h=300&qlt=20&o=5&dpr=1.3&pid=21.1' },
+  { name: 'Garrafa de café', searchQuery: 'Garrafa de café', image: 'https://http2.mlstatic.com/D_NQ_NP_2X_796221-MLB70924621676_082023-F-garrafa-termica-presso-inox-lumina-500ml-cafe-termolar.webp' },
+  { name: 'Travessa de vidro', searchQuery: 'Travessa de vidro', image: 'https://th.bing.com/th/id/OPHS.8kOZu4vtIVDXTg474C474?w=300&h=300&o=5&dpr=1.3&pid=21.1' },
 
 ];
 
