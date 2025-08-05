@@ -13,15 +13,12 @@ interface Gift {
 const DEFAULT_IMAGE = 'https://via.placeholder.com/300x300?text=Imagem+do+Produto';
 
 const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
-  { name: 'Varal Dobrável', searchQuery: 'varal dobrável inox', image: 'https://m.media-amazon.com/images/I/51ucwKgEA4L.__AC_SX300_SY300_QL70_ML2_.jpg' },
-  { name: 'Geladeira', searchQuery: 'geladeira frost free', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRASQzmq4IfHr3H26BkzqS7mLQayb7LXzTHFvRsdR4XS3Q8nCKXmrkkegHNEF1jctJQtXzVrTn9x7ty2l-KX_xfuOsWxtRtj5Of6YP3zbF2MjUiywFAk8LL' },
+  { name: 'Armário de Cozinha', searchQuery: 'armario de conzinha', image: 'https://product-hub-prd.madeiramadeira.com.br/903004/images/07c4f5c0-f114-4413-99fa-508eabe3e3c8mografite1713990284200zoom.jpg?width=500&canvas=1:1&bg-color=FFF' },
   { name: 'Máquina de Lavar', searchQuery: 'máquina de lavar 12kg', image: 'https://m.media-amazon.com/images/I/41pS08Q7EoL.__AC_SX300_SY300_QL70_ML2_.jpg' },
   { name: 'Mesa com Cadeira', searchQuery: 'mesa com 4 cadeiras', image: 'https://http2.mlstatic.com/D_NQ_NP_2X_811656-MLA79748605813_102024-F.webp' },
   { name: 'Criado Mudo', searchQuery: 'criado mudo branco casal', image: 'https://m.media-amazon.com/images/I/51BdFXHLcxL.__AC_SY300_SX300_QL70_ML2_.jpg' },
   { name: 'TV', searchQuery: 'smart tv 43 polegadas', image: 'https://m.media-amazon.com/images/I/51lElwjJUeL.__AC_SX300_SY300_QL70_ML2_.jpg' },
-  { name: 'Ventilador', searchQuery: 'ventilador turbo 6 pás', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTUdftAMCaDEO8WKNC_2l3Ah9c2kz-KeAg_ZZ4hGJjgxdriNRkxiFfxHoID23-gRtQkOA1rXDh1xV7bkT26n1D_QxP25szTxSjSp2e97HLZFEL-6Xmss7bJEGoYqFHk6q8b_EzF6Rdj7hk&usqp=CAc' },
   { name: 'Jogo de Toalhas', searchQuery: 'jogo de toalhas felpudas', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRRTX0JsvEcU1xmm-foJLEKnufaDGfCbf2ZQCL5H9nVnBHn1Q2kL5VpmuNeEEaqEV2aLyNssd2mU_h2fiG07rprMeVEdixzuTlDhRGInS6Ehe1XK4GmUIx0jCh9PYr57rBhye5Uhq8GMQ&usqp=CAc' },
-  { name: 'Roupa de Cama', searchQuery: 'jogo de cama casal 200 fios', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_XgzEWoG125YoNzLv-sOdtcd2uFoqzji9wxjP61RrSgYNBNF-pduwZ2qH4xWZHivdjAAs9qGbEdvo-3ykW1OwEA042-XyAxo2KDyX5Ito&usqp=CAc' },
   { name: 'Jogo de Pratos', searchQuery: 'jogo de pratos porcelana', image: 'https://http2.mlstatic.com/D_NQ_NP_2X_741219-MLB70835392170_082023-F-kit-jogo-6-prato-sobremesa-oxford-ryo-maresia-porcelana.webp' },
   { name: 'Jogo de Talheres', searchQuery: 'jogo de talheres inox 24 peças', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQZMfJDe1BeSRG1nVGtlG3YtPz3OkPjCOhBziODg94tr9ei3jC1mdtaVqsZ7F1v26iFJxL7gcwEDqXGQCDhJAZk75ff8UURNMc7vBjZxdTFjPFIryJxV-DvrIyJpDbYXo-IxyGn6zw&usqp=CAc' },
   { name: 'Jogo de Copos', searchQuery: 'jogo de copos vidro 6 peças', image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPELv2g-l9uBjiEahm5CppL2ytiKztNDl0wfcz2Sr0I2nH1yMFRrBoUXdM2EgQZaxppx_CHev21-Fewd0-WUkjnw6CpiccSZ_03B-U7NooLiuwRE7Wig9kheOG0FsML7RCLe4sXw&usqp=CAc' },
@@ -35,7 +32,6 @@ const giftItems: Omit<Gift, 'id' | 'clicks' | 'price'>[] = [
   { name: 'Kit Bancada Banheiro', searchQuery: 'kit bancada banheiro porcelana', image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRk73aCN140ZVd7QkUb-NMOmkMNL8Kzxtnw4ZLmpOCFiplZCvjAu09Dlshix-ENkTVctQR7iPKGEf2yybRgEg-806d5oyAXg9VFtKvtlaks94mt8TWaZ3hs0_GqTaVWHPX-i3ZH68QS-w&usqp=CAc' },
   { name: 'Jogo Americano', searchQuery: 'jogo americano mesa 6 lugares', image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTjcq_GD8kebAvUn--oc_Ym-Mov40gLKHVqevUccq8NGRIz-0dUgpIbAO2G5eYbg-9ly3PKCGrdqJn1BNtVX_jVnq0PIpUh_oqvQgdl2qU' },
   { name: 'Cortinas', searchQuery: 'cortina blackout sala', image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRlLnA1hMwFd8gWj3Cbs6CbBTX2mJ_Wx5CvCZSZf6uifm5uqWduj27a2TU5t0u7rKeiOHR1rVlI_iO-_WQmEyiGTDiPLzBFn4KnlW9xoNf59kgVdmYI9TcdLw&usqp=CAc' },
-  { name: 'Aspirador de Pó', searchQuery: 'aspirador de pó portátil potente', image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTP-dR5mVpU0ho3ZV8qKpoPbDu1LphOgKgn-S0gsE9N6xTEqY31O33XBLKokjGcpQ33cC4hsygfmfq-wMgGyxduWujO4Mg_0Aq9LAiqg2NLMuiqiZmNFtz_YKH_8WwLgyWxKBvWWKIZNg&usqp=CAc' },
   { name: 'Jogo de Taças', searchQuery: 'jogo de taças vinho cristal', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSfKrD1NsjdxJYB2fjUAbPsndCk1fBhDWImYnKqBBzY-bUU4eBvzojHL8Ke7k_F_qV9Kxpb1l8uM5tqGcuHTFNiG8lWp-7MfqfX7N3sLZrbFN-XgPk5xpRsolpOwSZ1rQ&usqp=CAc' },
   { name: 'Jogo de Escumadeira', searchQuery: 'jogo de escumadeiraaa', image: 'https://www.bing.com/th?id=OPHS.5HiQelKDk6k5HA474C474&o=5&pid=21.1&w=148&h=216&qlt=100&dpr=1,3&o=2&bw=6&bc=FFFFFF' },
   { name: 'Pano de prato', searchQuery: 'pano de prato', image: 'https://th.bing.com/th/id/OPHS.HfG85ok21iRTdQ474C474?w=300&h=300&qlt=20&o=5&dpr=1.3&pid=21.1' },
